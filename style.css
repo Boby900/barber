@@ -1,0 +1,297 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.logo{
+    width: 5%;
+    margin: 0.5em 0 0 1em;
+}
+
+.uls ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -2em;
+    font-size: 20px;
+}
+
+.uls ul li{
+    width: 10%;
+    
+}
+
+.uls ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.uls ul .home a{
+    color: rgb(223, 173, 71);
+}
+
+.uls ul .home a:hover{
+    color: white;
+    text-decoration: underline rgb(223, 173, 71);
+}
+
+.uls ul  a:hover{
+    color: white;
+    text-decoration: underline rgb(218, 161, 49);
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(223, 173, 71);
+}
+
+.icon i{
+    width: 5%;
+    font-size: 1.5em;
+    margin-top: -1.7em;
+    
+}
+
+.icon i:hover{
+    color: white;
+}
+
+@media all and (max-width: 600px){
+    .header{
+        float: left;
+        width: 95%;
+        margin: 0;
+        margin-top: -5.5em;
+        margin-left: 0.5em;
+    }
+
+    .header .uls ul li{
+        margin: 0;
+        float: left;
+        width: 100%;
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+
+    .header section img{
+        width: 13%;
+        float: left;
+        margin: 0;
+        margin-top: 3em;
+    }
+
+    .header section i{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-left: 2em;
+    }
+
+    .header .uls ul .conn{
+        margin-left: 0.5em;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+main{
+    background-image: url('https://rafaelsbarbershop.com/storage/photos/1/posts/compressed/hair-care-routine-for-men.jpg');
+    background-repeat: no-repeat;
+    height: 670px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main .gentle{
+   display: block;
+   padding: 10em 0 0 30em;
+   font-size: 25px;
+   color: white;
+   font-weight: bolder;
+}
+
+main .gentle .jiggle{
+    font-size: 40px;
+    margin-left: 1em;
+    
+}
+
+@media all and (max-width: 600px){
+    main{
+        background-size: contain;
+        background-attachment: local;
+        margin-top: 6em;
+        width: 95%;
+        margin-left: 0.5em;
+    }
+
+    main .gentle{
+        color: black;
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 10em;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    main section .jiggle{
+        display: block;
+        padding-right: 1em;
+    }
+}
+
+.container{
+   margin-left: 10em;
+    margin-top: 5em;
+}
+
+.first{
+    display: flex;
+}
+
+.second{
+    display: flex;
+}
+
+.items{
+    
+    margin: 5px;
+}
+
+.container .items img{
+    height: 300px;
+    width: 350px;
+}
+
+.mango h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(59, 50, 41);
+    text-align: center;
+    margin-top: 1em;
+}
+
+@media all and (max-width: 600px){
+    .container{
+        float: left;
+        width: 90%;
+        margin: 0;
+        margin-left: 2em;
+    }
+
+    .container .items img{
+        width: 95%;
+    }
+
+    .mango{
+        margin-top: -15em;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mango h2{
+        float: left;
+        width: 100%;
+        margin: 0;
+        font-size: 30px;
+    }
+
+
+    .one{
+        margin-top: 2em;
+    }
+}
+
+.poster article{
+    background-color: rgb(233, 184, 135);
+    width: 87%;
+    margin-left: 5em;
+    border: 2px dotted black;
+    margin-top: 5em; 
+}
+
+.poster article img{
+    width: 40%;
+   margin: -27em 0 0 43em;
+}
+
+.poster article h2{
+    margin: 1em 0 0 5.7em;
+}
+
+.para{
+    margin: 1em 0 -0 7.7em;
+    font-size: 18px;
+   
+}
+
+.jazzy{
+    margin: 1em 0 0 5.5em;
+    font-size: 25px;
+}
+
+.poster article h4{
+    margin: 1em 0 0 7.3em;
+    font-size: 19px;
+    background-color: white;
+    width: 25%;
+}
+
+@media all and (max-width: 600px){
+    .poster article{
+        float: left;
+        width: 85%;
+        margin: 0;
+        margin-left: 2em;
+    }
+
+    .poster article img{
+        float: left;
+        width: 95%;
+        margin: 1em 0 1em 0.5em;
+       
+    }
+
+    .poster article h4{
+        margin-left: 3em;
+        font-size: 16px;
+        width: 50%;
+    }
+
+    .poster article h2{
+        margin-left: 2em;
+    }
+
+    .poster article .para{
+        margin-left: 3em;
+        font-size: 15px;
+    }
+
+    .poster article .jazzy{
+        margin-left: 2.5em;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 600px){
+    body{
+        margin: 0;
+        margin-right: 0;
+    }
+
+    html{
+        margin: 0;
+        margin-right: 0;
+    }
+}
