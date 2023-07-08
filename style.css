@@ -105,8 +105,8 @@ main{
 
 main .gentle{
    display: block;
-   padding: 10em 0 0 30em;
-   font-size: 25px;
+   padding: 7em 0 0 23em;
+   font-size: 35px;
    color: white;
    font-weight: bolder;
 }
@@ -144,20 +144,21 @@ main .gentle .jiggle{
 }
 
 .container{
-   margin-left: 10em;
+   margin-left: 15em;
     margin-top: 5em;
 }
 
 .first{
     display: flex;
+    margin-left: 7em;
 }
 
 .second{
     display: flex;
+    margin-left: 7em;
 }
 
 .items{
-    
     margin: 5px;
 }
 
@@ -171,19 +172,20 @@ main .gentle .jiggle{
     text-transform: uppercase;
     color: rgb(59, 50, 41);
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 @media all and (max-width: 600px){
     .container{
         float: left;
-        width: 90%;
+        width: 100%;
         margin: 0;
         margin-left: 2em;
     }
 
     .container .items img{
         width: 95%;
+      
     }
 
     .mango{
@@ -193,11 +195,13 @@ main .gentle .jiggle{
     .first{
         display: flex;
         flex-direction: column;
+        margin-left: 0em;
     }
 
     .second{
         display: flex;
         flex-direction: column;
+        margin-left: 0em;
     }
 
     .mango h2{
@@ -216,7 +220,7 @@ main .gentle .jiggle{
 .poster article{
     background-color: rgb(233, 184, 135);
     width: 87%;
-    margin-left: 5em;
+    margin-left: 7em;
     border: 2px dotted black;
     margin-top: 5em; 
 }
@@ -227,7 +231,7 @@ main .gentle .jiggle{
 }
 
 .poster article h2{
-    margin: 1em 0 0 5.7em;
+    margin: 1em 0 0 4.3em;
 }
 
 .para{
@@ -248,12 +252,14 @@ main .gentle .jiggle{
     width: 25%;
 }
 
+
 @media all and (max-width: 600px){
     .poster article{
         float: left;
         width: 85%;
         margin: 0;
         margin-left: 2em;
+        margin-top: 3em;
     }
 
     .poster article img{
@@ -294,4 +300,6 @@ main .gentle .jiggle{
         margin: 0;
         margin-right: 0;
     }
+
+    
 }
