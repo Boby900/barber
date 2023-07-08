@@ -3,7 +3,8 @@ this is a landing page for the hair-salon
 
 **Link to project:** https://barber-shop-salon.netlify.app/
 
-![Screenshot (115)](https://github.com/Boby900/barber/assets/111265239/a89427fe-aee3-407a-801e-2050e9affcb6)
+![Screenshot (116)](https://github.com/Boby900/barber/assets/111265239/a662c869-c712-43f0-9fab-bbe5c2548c20)
+
 
 
 
